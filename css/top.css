@@ -1,0 +1,129 @@
+html,body{
+	font-family: sans-serif;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+h1{
+}
+ul{
+	margin: 0 0 0.5em;
+	padding: 0;
+}
+li{
+	list-style: none;
+	font-size: .7em;
+}
+
+#header{
+	margin: 2em;
+}
+#header img {
+	max-width: 100%;
+}
+#warpper{
+	max-width: 440px;
+	margin: 0 auto;
+	padding: 0 .5em;
+	
+}
+#disc{
+	text-align: center;
+	margin-bottom: 2em;
+}
+#disc h2{
+	font-weight: normal;
+	font-size: 1.3em;
+	margin: 0;
+}
+#disc h3{
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0;
+}
+
+
+#think{
+	clear: both;
+	margin: 0 auto;
+}
+
+#draw{
+	clear: both;
+	margin: 0 auto;
+}
+
+#make{
+	clear: both;
+	margin: 0 auto;
+}
+
+.circle{
+	height: 120px;
+	width: 120px;
+	border: 1px solid #000000;
+	border-radius: 60px;
+	float: left;
+}
+
+.innercircle{
+	height: 80px;
+	width: 80px;
+	border: 1px solid #000000;
+	border-radius: 40px;
+	margin: 20px auto;
+	text-align: center;
+	background-color: #ffffff;
+}
+.innercircle p{
+	line-height: 80px;
+	margin: 0;
+}
+.cB{
+	background: #000000;
+}
+.nB{
+	border: none;
+}
+.rB{
+	float: left;
+	margin-top: .5em;
+	margin-bottom: 2em;
+	margin-left: 1em;
+}
+#today{
+	clear: both;
+	margin: .5em 0;
+	background-color: #f1f1f1;
+	padding:  .8em;
+	border: .3em solid #f0f0f0;
+}
+#today p{
+	font-size: .7em;
+	margin: 0 0 .8em;
+	padding: 0;
+}
+#today iframe{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+#contact{
+	font-size: .7em;
+	color: #777;
+	margin:.5em 0 .7em;
+}
+#contact a{
+	font-size: .7em;
+	color: #777;
+	text-decoration: none;
+}
+#contact a:visited{
+	color: #777;	
+}
+
+#footer{
+	font-size: .7em;
+	border-top: 1px solid #898989;
+	text-align: right;
+}
